@@ -215,11 +215,13 @@ export default function() {
 				},
 				{q: '', a: ''
 				},
-				{q: '', a: ''
+				{q: 'What is JSX', a: 'JSX is an HTML like syntax for writing React markup.'
 				},
-				{q: '', a: ''
+				{q: 'What is Babel', a: 'Babel is what transpiles JSX, ECMAScript 6 or ES6 into standard JavaScript objects that a JavaScript engine will parse.'
 				},
-				{q: '', a: ''
+				{q: 'What are components', a: 'In react almost all parts of an apps interface can be broken down into a react component. Buttons, forms, content areas. React apps are made up of many components'
+				},
+				{q: 'What is the virtual DOM', a: 'A light weight copy of the DOM that react can reference for updates.'
 				}
 			]},
 
