@@ -139,6 +139,16 @@ export default function() {
 				},
 				{q: 'What is the difference between width: 100% and width: 100vw?', a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
 				}
+				{q: 'How can you create a re usable css variable', a: 'assign the variable at the top of your file with --variable: blue; then call your variable with color: var(--variable);'
+				}
+				{q: 'How can you override a style', a: 'You can assign !important after your variable. Use this only when necessary with great power...'
+				}
+				{q: 'How can you style sudo classes', a: 'a:link { color: blue; } is one example, or try a:hover'
+				}
+				{q: 'How can you target and style child elements', a: 'For this example lets use a list. li:nth-child(2) { color: blue; }'
+				}
+				{q: 'Can you combine items to be styled into a single element', a: 'Yes, by using a comma you can chain items together to be styled. .item-1, .item-s { color: blue;}'
+				}
 			]},
 
 // HTML
